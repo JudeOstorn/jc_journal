@@ -1,5 +1,6 @@
 class NotesController < ApplicationController
   before_action :set_note, only: [:show, :edit, :update, :destroy]
+  http_basic_authenticate_with name: "jude", password: "RubyRoid222", except: [:home, :show]
 
   # GET /notes
   # GET /notes.json
