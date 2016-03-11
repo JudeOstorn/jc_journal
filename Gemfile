@@ -1,8 +1,12 @@
 source 'https://rubygems.org'
 
 
+gem 'protected_attributes'
+gem 'ferret'
+gem 'acts_as_ferret'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.5'
+gem 'bootstrap-sass'
 # Use postgresql as the database for Active Record
 gem 'pg', '~> 0.15'
 # Use SCSS for stylesheets
