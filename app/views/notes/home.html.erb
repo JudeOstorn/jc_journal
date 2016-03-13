@@ -1,15 +1,14 @@
 <p id="notice"><%= notice %></p>
 
-<h1>HOME</h1>
-
-
 <% @notes.each do |note| %>
+<div class="text-center">
   <div class="article">
     <h1 class="article-title"><%= link_to note.title, note %></h1>
     <p class="article-content"><%= note.content %></p>
+    <br>
   </div>
 <% end %>
-
+</div>
 <br>
 
 <%#= link_to 'admin', notes_path %>
