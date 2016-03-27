@@ -1,6 +1,6 @@
 class NotesController < ApplicationController
   before_action :set_note, only: [:show, :edit, :update, :destroy]
-  http_basic_authenticate_with name: "jude", password: "RubyRoid222", except: [:home, :show]
+  #http_basic_authenticate_with name: "jude", password: "RubyRoid222", except: [:home, :show]
 
   # GET /notes
   # GET /notes.json
@@ -11,7 +11,6 @@ class NotesController < ApplicationController
    # else
   #    @notes = Note.order("created_at DESC")
    # end
-
   end
 
   def home

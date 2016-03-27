@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-
+gem 'carrierwave'
 gem 'protected_attributes'
 gem 'ferret'
 gem 'acts_as_ferret'
