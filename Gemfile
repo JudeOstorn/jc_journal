@@ -1,5 +1,8 @@
 source 'https://rubygems.org'
 
+
+
+#ruby '2.2.4'
 gem 'carrierwave'
 gem 'protected_attributes'
 gem 'ferret'
