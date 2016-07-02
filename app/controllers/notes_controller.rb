@@ -62,8 +62,6 @@ class NotesController < ApplicationController
         format.json { render json: @note.errors, status: :unprocessable_entity }
       end
     end
-
-
   end
 
   # PATCH/PUT /notes/1
